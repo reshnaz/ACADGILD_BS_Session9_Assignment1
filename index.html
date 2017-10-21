@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="script.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<title>S-9 Assignment-1</title>
+</head>
+
+<body>
+	<!-- Working with Bootstrap Popovers -->
+	<center>
+		<h1 style="margin-left: 60px; text-decoration: underline;">Bootstrap Popovers</h1><br>
+		<br><br>
+
+		<!-- Using bootstrap -->
+		<!-- Our main div that holds all of our main content -->
+		<div class="container">
+			<center>
+				<!-- Div using jumbotron class ~~~START~~~ -->
+				<div class="jumbotron" id="jumboIn">
+
+					<!-- First button with popover -->
+					<button id="p1" class="btn" title="Popover-I" data-toggle="popover" data-placement="left" data-trigger="focus" data-content="The Popover plugin is similar to tooltips." style="background-color:#FF5733; font-weight: bold;">Popover Uno</button>
+
+					<!-- Second button with popover -->
+					<button id="p2" class="btn" style="background-color:#8F6CD5; font-weight: bold;" title="Popover-II" data-toggle="popover" data-placement="top" data-trigger="focus" data-content="It is a pop-up box that appears when the user clicks on an element.">Popover Dos</button>
+
+					<!-- Third button with popover -->
+					<button id="p3" class="btn" style="background-color:#239628; font-weight: bold;" title="Popover-III" data-toggle="popover" data-placement="bottom" data-trigger="focus" data-content="The difference is that the popover can contain much more content.">Popover Tres</button>
+
+					<!-- Fourth button with popover -->
+					<button id="p4" class="btn" style="background-color:#F7C92C; font-weight: bold;" title="Popover-IV" data-toggle="popover" data-placement="right" data-trigger="focus" data-content="Click anywhere in the document to close this popover.">Popover Cuatro</button>
+
+					<br><br>
+					Note: Click on the buttons to display popover.
+				</div>
+				<!-- Div using jumbotron class ~~~END~~~ -->
+			</center>
+		</div>
+	</center>
+	</body>
+	</html>
